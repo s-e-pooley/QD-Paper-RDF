@@ -14,3 +14,9 @@ print(dots.shape)
 assert(dots.shape[1] == 3)
 assert(dots[0,2] == 0)
 
+# Testing that
+def test_number_of_dots():
+	if(dots > 5):
+		print("Test passed")
+	else:
+		print("test failed") 
