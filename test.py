@@ -14,9 +14,13 @@ print(dots.shape)
 assert(dots.shape[1] == 3)
 assert(dots[0,2] == 0)
 
-# Testing that
-def test_number_of_dots():
-	if(dots > 5):
-		print("Test passed")
-	else:
-		print("test failed") 
+# Testing that test_filename was assigned the correct file
+def found_correct_file():
+    if(test_filename == "106/5a.tif"):
+        print("test passed")
+    if(test_filename == "x"):
+        print("test failed")
+    else:
+        print("test ran successfully")
+    
+found_correct_file()
